@@ -3,8 +3,9 @@ import React from 'react';
 function App(props) {
   return (
     <div>
-      ASI CHATS<br></br>
-      its a messaging app
+      <h3>ASI CHATS</h3>
+      its a messaging app<br/>
+      Development under process
     </div>
   );
 }
