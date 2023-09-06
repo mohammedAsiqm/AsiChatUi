@@ -3,7 +3,8 @@ import React from 'react';
 function App(props) {
   return (
     <div>
-      ASI CHATS
+      ASI CHATS<br></br>
+      its a messaging app
     </div>
   );
 }
