@@ -5,7 +5,7 @@ function App(props) {
     <div>
       <h3>ASI CHATS</h3>
       its a messaging app<br/>
-      Development under process
+      Development under process 1%
     </div>
   );
 }
