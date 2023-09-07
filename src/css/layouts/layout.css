@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url("../theme.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.web-layout {
+    display: grid;
+    grid-template-columns: .14fr 2fr;
+    height: 100vh;
+    background-color: rgba(203, 212, 212, 0.151);
+
+}
+
+.web-layout .layout-sidebar {
+    background-color: var(--secondaryColor);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .8fr 3fr .2fr;
+}
+
+.web-layout .layout-sidebar section {
+    font-size: 21px;
+}
+
+.layout-profile-container  {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.685);
+    margin: 15px auto;
+    max-width: 60px;
+    max-height: 60px;
+    overflow: hidden;
+    
+}
+
+
+.web-layout .layout-sidebar section div {
+    padding: 20px 0px;
+}
+
+.web-layout .layout-sidebar .layout-sideheader {
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+.web-layout .layout-sidebar {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+.web-layout .layout-content {
+    height: 93vh;
+    max-height: 93vh;
+    overflow: hidden;
+}
+
+.web-layout .layout-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: rgba(0, 255, 255, 0.137);
+}
+
+.web-layout .layout-footer {
+    font-size: 13px;
+}
+

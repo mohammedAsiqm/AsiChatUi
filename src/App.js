@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { lazy, Suspense } from "react";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
-function App(props) {
+const Layout = lazy(() => import("./layouts/windows/layout"));
+const ChatPage = lazy(() => import("./pages/chat/index"));
+
+function App() {
   return (
-    <div>
-      <h3>ASI CHATS</h3>
-      its a messaging app<br/>
-      Development under process 1%
-    </div>
+    <BrowserRouter>
+      <Suspense fallback={"Layout loading"} >
+        <Layout>
+          <Suspense fallback={"loading"}>
+            <Routes>
+              <Route path="/" element={<Navigate to={"/chats"} />} />
+              <Route path="/chats" element={<ChatPage />} />
+            </Routes>
+          </Suspense>
+        </Layout>
+      </Suspense>
+    </BrowserRouter>
   );
 }
 
