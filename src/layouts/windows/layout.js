@@ -21,6 +21,9 @@ function Layout({ children }) {
             <ion-icon name="people-outline"></ion-icon>
           </div>
           <div>
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+          <div>
             <ion-icon name="settings-outline"></ion-icon>
           </div>
           <div>
