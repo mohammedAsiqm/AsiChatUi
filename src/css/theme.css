@@ -2,4 +2,7 @@
     --primaryColor: white;
     --secondaryColor: darkslategray;
     --thirdColor: rgb(255, 116, 65);
+    --themeBlack: rgba(0, 0, 0, 0.822);
+    /* --themeGrey: rgb(224, 224, 235); */
+    --themeGrey: rgb(237, 237, 241);
 }

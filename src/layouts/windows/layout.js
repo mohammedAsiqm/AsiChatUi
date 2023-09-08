@@ -1,6 +1,7 @@
 import React from "react";
 import "../../css/layouts/layout.css";
-import profile from "../../assets/profile.jpg";
+import { Link } from "react-router-dom";
+import profile from "../../assets/profile.webp";
 
 function Layout({ children }) {
   return (
@@ -11,34 +12,43 @@ function Layout({ children }) {
           <img src={profile} alt="profile" width={"60px"} />
         </div>
         <section>
-          <div>
-            <ion-icon name="home-outline"></ion-icon>
-          </div>
-          <div>
-            <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
-          </div>
-          <div>
-            <ion-icon name="people-outline"></ion-icon>
-          </div>
-          <div>
-            <ion-icon name="call-outline"></ion-icon>
-          </div>
-          <div>
-            <ion-icon name="settings-outline"></ion-icon>
-          </div>
-          <div>
-            <ion-icon name="log-out-outline"></ion-icon>
-          </div>
+          <Link to={"/"}>
+            <div>
+              <ion-icon name="home-outline"></ion-icon>
+            </div>
+          </Link>
+          <Link to={"/"}>
+            <div>
+              <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+            </div>
+          </Link>
+          <Link to={"/"}>
+            <div>
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+          </Link>
+          <Link to={"/"}>
+            <div>
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+          </Link>
+          <Link to={"/"}>
+            <div>
+              <ion-icon name="settings-outline"></ion-icon>
+            </div>
+          </Link>
+          <Link to={"/"}>
+            <div>
+              <ion-icon name="log-out-outline"></ion-icon>
+            </div>
+          </Link>
         </section>
-        {/* <div>
-          <button className="layout-logout-botton" > Logout <span><ion-icon name="log-out-outline"></ion-icon></span> </button>
-        </div> */}
       </div>
       <section className="layout-content-wrapper">
         <div className="layout-content">{children}</div>
         <footer className="layout-footer">
           <div>
-            <p>© {new Date().getFullYear()} Asi Chats. All rights reserved.</p>
+            <p>Copyright © {new Date().getFullYear()} Asi Chats. All rights reserved.</p>
           </div>
           <div>
             <p>App Developed by : Mohammed Asiq</p>
