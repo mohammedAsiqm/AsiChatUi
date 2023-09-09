@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 const Layout = lazy(() => import("./layouts/windows/layout"));
 const ChatPage = lazy(() => import("./pages/chat/index"));
 const FeedsPage = lazy(() => import("./pages/feeds"));
+const ExplorePage = lazy(() => import("./pages/explore"));
+const ViewProfilePage = lazy(() => import("./pages/explore/viewProfile"));
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
               <Route path="/" element={<Navigate to={"/feeds"} />} />
               <Route path="/feeds" element={<FeedsPage />} />
               <Route path="/chats" element={<ChatPage />} />
+              <Route path="/explores" element={<ExplorePage />} />
+              <Route path="/viewprofile" element={<ViewProfilePage />} />
             </Routes>
           </Suspense>
         </Layout>

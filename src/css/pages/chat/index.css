@@ -1,6 +1,6 @@
 .chats-container {
     display: grid;
-    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-template-columns: 1fr 2.7fr .7fr;
     gap: 3px;
     padding: 3px;
     height: 88.2vh;
@@ -14,7 +14,7 @@
 
 .chats-container .chat-contact-list-container {
     height: 83.7vh;
-    max-height: 83.7vh;
+    max-height: 78.7vh;
     overflow-y: scroll;
 }
 

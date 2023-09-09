@@ -1,0 +1,64 @@
+.view-profile-container {
+    background-color: white;
+    width: 100%;
+}
+
+
+.view-profile-container .view-profile-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--themeGrey);
+}
+
+.view-profile-container .view-profile-header .vph-profile {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.view-profile-container .view-profile-header .vph-profile div {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.view-profile-container .view-profile-header .vph-follows {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+    text-align: center;
+    width: 60%;
+}
+
+.view-profile-container .view-profile-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    margin-top: 10px;
+    height: 60vh;
+    max-height: 59vh;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.view-profile-container .view-profile-posts::-webkit-scrollbar {
+    display: none;
+}
+
+.view-profile-container .view-profile-posts div {
+    height: 20vh;
+    background-color: white;
+    border: 1px solid var(--themeGrey);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

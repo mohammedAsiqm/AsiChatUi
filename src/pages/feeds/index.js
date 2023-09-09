@@ -58,7 +58,9 @@ function Feeds() {
             </section>
             <section className="feed-post-container">
               <FeedPostCard profile={`https://randomuser.me/api/portraits/thumb/men/${7}.jpg`} postUrl={"https://t4.ftcdn.net/jpg/05/51/22/65/360_F_551226555_JoynWcUCPb7U68psjX0PnNG51WF4to2E.jpg"} />
+              <FeedPostCard profile={`https://randomuser.me/api/portraits/thumb/men/${8}.jpg`} postUrl={"https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"} />
               <FeedPostCard profile={`https://randomuser.me/api/portraits/thumb/men/${5}.jpg`} postUrl={"https://images.unsplash.com/photo-1600705722908-bab1e61c0b4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"} />
+              <FeedPostCard profile={`https://randomuser.me/api/portraits/thumb/men/${95}.jpg`} postUrl={"https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg?cs=srgb&dl=pexels-oleksandr-p-3278215.jpg&fm=jpg"} />
               <FeedPostCard
                 profile={`https://randomuser.me/api/portraits/thumb/men/${67}.jpg`}
                 postUrl={"https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"}

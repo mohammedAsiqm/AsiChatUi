@@ -20,7 +20,8 @@
 .profile-card h5 {
     font-size: 14px;
     margin: 4px 0px;
-    color: var(--thirdColor);
+    /* color: var(--thirdColor); */
+    color: var(--themeBlack);
 }
 
 .profile-card .follow-btn {
@@ -60,4 +61,18 @@
 
 .profile-card .unfollow-btn-container div {
     width: 50%;
+}
+
+.profile-card .view-profile-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--thirdColor);
+    cursor: pointer;
+    transition: .3s all;
+    font-size: 12px;
+}
+
+.profile-card .view-profile-btn:hover {
+    font-size: 13px;
 }

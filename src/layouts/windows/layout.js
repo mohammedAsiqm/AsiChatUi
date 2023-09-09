@@ -12,32 +12,32 @@ function Layout({ children }) {
           <img src={profile} alt="profile" width={"60px"} />
         </div>
         <section>
-          <Link to={"/feeds"}>
-            <div>
+          <Link to={"/feeds"} title="Feeds">
+            <div  >
               <ion-icon name="home-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/chats"}>
+          <Link to={"/chats"} title="Chats"  >
             <div>
               <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/explores"} title="Explores">
             <div>
               <ion-icon name="people-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/"} title="Calls" >
             <div>
               <ion-icon name="call-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/"} title="Settings" >
             <div>
               <ion-icon name="settings-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/"} title="Logout" >
             <div>
               <ion-icon name="log-out-outline"></ion-icon>
             </div>

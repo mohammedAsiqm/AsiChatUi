@@ -1,0 +1,9 @@
+.view-profile-wrapper {
+    width: 50%;
+    margin: auto;
+    height: 80vh;
+    margin: 10px auto;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: white;
+}
