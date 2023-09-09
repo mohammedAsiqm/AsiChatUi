@@ -85,3 +85,64 @@
 .feeds-container .feeds-layout .feed-post-container::-webkit-scrollbar {
     display: none;
 }
+
+.feed-post-card-container {
+    border: 1px solid var(--themeGrey);
+    padding: 0px;
+    margin-bottom: 7px;
+}
+
+.feed-post-card-container section {
+    padding: 0 !important;
+}
+
+.feed-post-card-container .feed-post-card-header {
+    display: flex;
+    align-items: start;
+    margin-bottom: 7px;
+}
+
+.feed-post-card-container .feed-post-card-header .feed-post-profile {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    max-width: 45px;
+    max-height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.feed-post-card-container .feed-post-card-header p{
+    margin: 0;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.feed-post-card-container .feed-post-card-header h5 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.feed-post-card-container .feed-post-card-image {
+    min-height: 50vh;
+    max-height: 70vh;
+    overflow: hidden;
+    background-color: white !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--themeGrey);
+    border-radius: 0;
+}
+
+.feed-post-card-container .feed-post-card-actions ion-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.feed-post-card-container .feed-post-card-body p{
+    margin: 0;
+    font-size: 15px;
+    margin-top: 7px;
+}
