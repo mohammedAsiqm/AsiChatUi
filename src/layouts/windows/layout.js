@@ -12,12 +12,12 @@ function Layout({ children }) {
           <img src={profile} alt="profile" width={"60px"} />
         </div>
         <section>
-          <Link to={"/"}>
+          <Link to={"/feeds"}>
             <div>
               <ion-icon name="home-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/chats"}>
             <div>
               <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
             </div>

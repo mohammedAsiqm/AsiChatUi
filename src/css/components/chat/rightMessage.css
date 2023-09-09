@@ -9,8 +9,8 @@
 .right-message p {
     font-size: 13px;
     display: inline-block;
-    background-color: var(--thirdColor);
-    /* background-color: rgba(137, 43, 226, 0.849); */
+    /* background-color: var(--thirdColor); */
+    background-color: var(--themeBlue);
     width: auto;
     max-width: 300px;
     padding: 6px;

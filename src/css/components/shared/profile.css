@@ -1,0 +1,63 @@
+.profile-card {
+    border: 1px solid var(--themeGrey);
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.profile-card .pc-img-container {
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 4px;
+}
+
+.profile-card h5 {
+    font-size: 14px;
+    margin: 4px 0px;
+    color: var(--thirdColor);
+}
+
+.profile-card .follow-btn {
+    width: 90%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--themeBlue);
+    color: white;
+    margin: 10px 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.profile-card .follow-btn ion-icon {
+    position: relative;
+    top: 1px;
+    left: 4px;
+}
+
+.profile-card .unfollow-btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-card .unfollow-btn-container button {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--themeBlue);
+    color: white;
+    font-size: 12px;   
+}
+
+.profile-card .unfollow-btn-container div {
+    width: 50%;
+}

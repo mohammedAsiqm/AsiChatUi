@@ -12,8 +12,8 @@ function ChatContact({ profilePic, contactName = "", message = "", messageTime =
       <div>
         <h5 className="chat-contact-name" >{contactName.substring(0, 13)}</h5>
         <h6 className="chat-contact-message" >
-          {message.substring(0, 20)}
-          {message.length > 20 ? " ....." : ""}{" "}
+          {message.substring(0, 25)}
+          {message.length > 20 ? " ..." : ""}{" "}
         </h6>
       </div>
       <div>
