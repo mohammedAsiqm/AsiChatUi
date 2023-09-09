@@ -1,0 +1,29 @@
+.left-message {
+    /* background-color: yellow; */
+    margin: 5px 0px;
+}
+
+.left-message p {
+    display: inline-block;
+    font-size: 13px;
+    background-color: rgb(200, 226, 236);
+    width: auto;
+    max-width: 300px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-bottom: 18px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: var(--themeBlack);
+    margin: 0;
+    font-weight: 600;
+    position: relative;
+}
+
+.left-message p span {
+    position: absolute;
+    color: var(--themeBlack);
+    right: 10px;
+    bottom: 3px;
+    font-size: 8px;
+}
