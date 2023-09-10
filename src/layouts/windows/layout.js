@@ -37,7 +37,7 @@ function Layout({ children }) {
               <ion-icon name="settings-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"#"} title="Logout">
+          <Link to={"/"} title="Logout">
             <div>
               <ion-icon name="log-out-outline"></ion-icon>
             </div>

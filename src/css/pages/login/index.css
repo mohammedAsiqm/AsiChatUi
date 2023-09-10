@@ -1,0 +1,122 @@
+@import url("../../theme.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.login-container {
+    display: grid;
+    grid-template-columns: 3fr 1.2fr;
+    height: 100vh;
+}
+
+.login-container .login-left-container {
+    /* background-image: linear-gradient(to right bottom, #2f4f4f, #2f4f4f, #2f4f4f, #2f4f4f, #2f4f4f, #355353, #3c5757, #425b5b, #506464, #5d6e6e, #6b7777, #798181); */
+    /* background-image: linear-gradient(to right bottom, #2e3b3b, #2b3939, #273737, #243535, #203333, #233636, #253838, #283b3b, #324443, #3b4c4c, #455555, #4f5e5e); */
+    background-color: rgb(78, 119, 119);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.login-container .login-left-container h1 {
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 34px;
+    font-weight: 900;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+
+.login-container .login-left-container h2 {
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 18.4px;
+    margin: 0;
+}
+
+.login-container .login-right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.login-container .login-right-container ion-icon {
+    font-size: 25px;
+    color: var(--thirdColor);
+}
+
+.login-container .login-right-container input {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    padding: 6px;
+    border-radius: 7px;
+    margin: 8px 0px;
+}
+
+.login-container .login-right-container label {
+    text-align: start !important;
+    font-size: 14px;
+}
+
+.login-container .login-right-container form label {
+    width: 100%;
+    display: block;
+}
+
+.login-container .login-right-container .signin-btn {
+    display: block;
+    margin: 20px 0px;
+    width: 100%;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: rgb(78, 119, 119);
+    color: white;
+    cursor: pointer;
+}
+
+.login-container .login-right-container form a {
+    font-size: 12px;
+    color: var(--secondaryColor);
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+}
+
+.login-container .login-right-container .login-right-form-container {
+    width: 65%;
+}
+
+.login-container .login-right-container .login-right-form-container  h3 {
+    margin: 30px 0px;
+}
+
+.login-container .login-right-container .login-right-form-container .signup-text {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.login-container .login-right-container .login-right-form-container .signup-text button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    color: var(--thirdColor);
+}
