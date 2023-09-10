@@ -1,0 +1,41 @@
+.settings-layout {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 20px 40px;
+    margin-top: 10px;
+    height: 87vh;
+    max-height: 87vh;
+    overflow: hidden;
+    gap: 30px;
+}
+
+.settings-layout section {
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.settings-layout .settings-menu-container a {
+    color: var(--themeBlack);
+    text-decoration: none;
+}
+
+.settings-layout .settings-menu-container div {
+    /* background-color: blue; */
+    padding: 15px 11px;
+    border-bottom: 1px solid var(--themeGrey);
+    transition: .2s all;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.settings-layout .settings-menu-container div:hover {
+    padding-left: 15px;
+} 
+
+.settings-layout .settings-menu-container div ion-icon {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 6px;
+}

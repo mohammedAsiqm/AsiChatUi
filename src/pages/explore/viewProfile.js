@@ -7,8 +7,8 @@ function ViewProfile() {
   return (
     <section>
       <Header title="Profile" />
-      <section className="view-profile-wrapper" >
-        <ViewProfileComponent />
+      <section id="view-profile-wrapper" className="view-profile-wrapper" >
+        <ViewProfileComponent postContainerHeight={"60vh"} />
       </section>
     </section>
   );

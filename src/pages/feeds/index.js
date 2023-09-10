@@ -36,8 +36,8 @@ const FeedPostCard = ({ profile, postUrl }) => {
       </section>
       <section className="feed-post-card-body">
         <p>
-          Rocks are naturally occurring solid aggregates or mixtures of minerals, mineraloids, or organic materials. They are an essential part of the Earth's crust and are the building blocks of the Earth's
-          geology. Rocks are classified into three main types based on their formation processes: igneous, sedimentary, and metamorphic.
+          Rocks are naturally occurring solid aggregates or mixtures of minerals, mineraloids, or organic materials😱😱😎. They are an essential part of the Earth's crust and are the building blocks of the Earth's
+          geology. Rocks are classified into three main types based on their formation processes: igneous, sedimentary, and metamorphic❤️❤️‍🔥🔥.
         </p>
       </section>
     </section>

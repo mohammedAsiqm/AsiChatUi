@@ -6,6 +6,7 @@ const ChatPage = lazy(() => import("./pages/chat/index"));
 const FeedsPage = lazy(() => import("./pages/feeds"));
 const ExplorePage = lazy(() => import("./pages/explore"));
 const ViewProfilePage = lazy(() => import("./pages/explore/viewProfile"));
+const MyProfilePage = lazy(() => import("./pages/settings/profile"));
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/chats" element={<ChatPage />} />
               <Route path="/explores" element={<ExplorePage />} />
               <Route path="/viewprofile" element={<ViewProfilePage />} />
+              <Route path="/myprofile" element={<MyProfilePage />} />
             </Routes>
           </Suspense>
         </Layout>

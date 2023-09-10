@@ -13,11 +13,11 @@ function Layout({ children }) {
         </div>
         <section>
           <Link to={"/feeds"} title="Feeds">
-            <div  >
+            <div>
               <ion-icon name="home-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/chats"} title="Chats"  >
+          <Link to={"/chats"} title="Chats">
             <div>
               <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
             </div>
@@ -27,17 +27,17 @@ function Layout({ children }) {
               <ion-icon name="people-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/"} title="Calls" >
+          <Link to={"#"} title="Calls">
             <div>
               <ion-icon name="call-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/"} title="Settings" >
+          <Link to={"/myprofile"} title="Settings">
             <div>
               <ion-icon name="settings-outline"></ion-icon>
             </div>
           </Link>
-          <Link to={"/"} title="Logout" >
+          <Link to={"#"} title="Logout">
             <div>
               <ion-icon name="log-out-outline"></ion-icon>
             </div>
